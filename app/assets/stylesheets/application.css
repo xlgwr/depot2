@@ -46,8 +46,8 @@ html,body {
 }
 #columns #side {
     float: left;
-       padding: 1em 2em;
-       width: 13em;
+       padding: 1em 1em;
+       width: 15em;
        background: #141;
 }	
 #columns #side ul {
@@ -61,3 +61,26 @@ html,body {
   font-size: small;
 }
 	 
+#side {
+    float: left;
+       padding: 1em 2em;
+       width: 13em;
+       background: #141;
+}
+#side form, #side div {
+    display: inline;
+}
+#side input {
+    font-size: small;
+}
+#side #cart {
+    font-size: smaller;
+	     color: white;
+}
+#side #cart table{
+    border-top: 1px dotted #595;
+		  border-bottom: 1px dotted #595;
+		  margin-bottom: 10px;
+}
+
+
