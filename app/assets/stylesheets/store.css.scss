@@ -21,6 +21,7 @@
 		     margin-right: 5px;
 		     margin-bottom: 5px;
 		     position: absolute;
+		     cursor:  pointer;
 		}
 		h3 {
 		    font-size: 120%;
@@ -36,6 +37,9 @@
 				   margin-bottom: 0.8em;
 				   form, div {
 				       display: inline;
+				   }
+				   input[type="submit"] {
+				       cursor: pointer;
 				   }
 		}
 		.price {

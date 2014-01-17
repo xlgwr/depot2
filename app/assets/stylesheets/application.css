@@ -84,3 +84,33 @@ html,body {
 }
 
 
+.depot_form fieldset {
+     background: #efe;
+}
+.depot_form fieldset legend{
+    color: #dfd;
+			    background: #141;
+			    font-family: Helvetica monospace sans-serif;
+			    padding: 0.2em 1em;
+}
+.depot_form form label {
+    width: 5em;
+			float: left;
+			text-align: right;
+			padding-top: 0.2em;
+			margin-right: 0.1em;
+			display: block;
+}
+.depot_form form select, .depot_form form textarea, .depot_form form input {
+    margin-left: 0.5em;
+}
+
+.depot_form form .submit {
+    margin-left: 4em;
+}
+.depot_form form br{
+    display: none
+}
+
+    
+	

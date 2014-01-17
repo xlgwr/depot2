@@ -13,7 +13,8 @@
     width: 80px;
     margin-right: 5px;
     margin-bottom: 5px;
-    position: absolute; }
+    position: absolute;
+    cursor: pointer; }
   .store .entry h3 {
     font-size: 120%;
     font-family: Helvetica monospace sans-serif;
@@ -27,6 +28,8 @@
     margin-bottom: 0.8em; }
     .store .entry p form, .store .entry p div, .store .entry div.price_line form, .store .entry div.price_line div {
       display: inline; }
+    .store .entry p input[type="submit"], .store .entry div.price_line input[type="submit"] {
+      cursor: pointer; }
   .store .entry .price {
     color: #44a;
     font-weight: bold;
