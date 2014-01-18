@@ -1,0 +1,95 @@
+﻿#START:layout
+#START:main
+#START:cart
+#START:currency
+#START:checkout
+#START:errors
+#START:model
+#START:flash
+cn:
+
+#END:cart
+#END:flash
+#END:model
+#END:errors
+#END:checkout
+#END:main
+#END:layout
+  number:
+    currency:
+      format:
+        unit:      "￥"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format:    "%u%n"
+#END:currency
+
+#START:model
+#START:errors
+  activerecord:
+#END:errors
+    models:
+      order:       "订单"
+    attributes:
+      order:
+        address:   "地址"
+        name:      "姓名"
+        email:     "E-mail"
+        pay_type:  "支付方式"
+#END:model
+
+#START:errors
+    errors:
+      messages:
+        inclusion: "请选择正确地支付方式"
+        blank:     "不能为空"
+  errors:
+    template:
+      body:        "如下字段有错误:"
+      header:
+        one:       "%{model}：有一个错误"
+        other:     "%{model}：有%{count}个错误"
+#END:errors
+
+#START:layout
+  layouts:
+    application:
+      title:       "编程图书管"
+      home:        "首页"
+      questions:   "问题"
+      news:        "新闻"
+      contact:     "联络"
+#END:layout
+
+#START:cart
+  carts:
+    cart:
+      title:       "您的购物车"
+      empty:       "清空购物车"
+      checkout:    "提交订单"
+#END:cart
+
+#START:main
+  store:
+    index:
+      title_html:  "您的编程书"
+      add_html:    "加入购物车"
+#END:main
+
+#START:checkout
+  orders:
+    new:
+      legend:       "请输入明细资料"
+    form:
+      name:         "姓名"
+      address_html: "地址"
+      email:        "E-mail"
+      pay_type:     "支付方式"
+      pay_prompt_html: "请选择支付方式"
+      submit:       "提交订单"
+#END:checkout
+
+#START:flash
+  thanks:          "谢谢您的订单。"
+#END:flash

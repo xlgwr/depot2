@@ -10,11 +10,11 @@ Depot2::Application.routes.draw do
   get "sessions/destroy"
   resources :users
 
-  resources :orders
+#  resources :orders
 
-  resources :line_items
+#  resources :line_items
 
-  resources :carts
+#  resources :carts
 
   get "store/index"
   resources :products
